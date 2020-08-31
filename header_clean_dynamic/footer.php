@@ -5,7 +5,7 @@
 
 	<!-- Javascript links -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="../assets/js/main.js"></script>
+    <script src="../assets/js/header_clean_dynamic.js"></script>
 
 </body>
 </html>

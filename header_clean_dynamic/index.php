@@ -1,5 +1,5 @@
 	<!-- ==================== HEADER ==================== -->
-	<?php include './header.php';?>
+	<?php include './header_clean_dynmic.php';?>
 	<!-- Default header includes: 
 		  > Meta tags
 		  > Fonts

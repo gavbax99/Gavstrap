@@ -22,13 +22,13 @@
 	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 
     <!-- Style links -->
-	<link rel="stylesheet" type="text/css" href="../assets/css/reset.css" />
-	<link rel="stylesheet" type="text/css" href="../assets/css/grid.css" />
-	<link rel="stylesheet" type="text/css" href="../assets/css/tools.css" />
+	<link rel="stylesheet" type="text/css" href="./assets/css/reset.css" />
+	<link rel="stylesheet" type="text/css" href="./assets/css/grid.css" />
+	<link rel="stylesheet" type="text/css" href="./assets/css/tools.css" />
 
 	<!-- Component styles -->
-	<link rel="stylesheet" type="text/css" href="../assets/css/footer.css" />
-	<link rel="stylesheet" type="text/css" href="../assets/css/header.css" />
+	<link rel="stylesheet" type="text/css" href="./assets/css/footer.css" />
+	<link rel="stylesheet" type="text/css" href="./assets/css/header.css" />
 
 </head>
 <body>

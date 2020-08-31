@@ -12,6 +12,15 @@
 	z-index: 999;
 }
 
+.header-offset {
+	z-index: 0;
+	height: 0;
+	background-color: transparent;
+	max-width: 100%;
+	width: 100%;
+	display: block;
+}
+
 .header--scrolled {
 	background-color: #fff !important;
 	color: #000 !important;

@@ -10,6 +10,7 @@ window.onscroll = function () {
 
 // ==================== Height of nav
 var navHeight = parseFloat($("header").css("height"));
+$(".header-offset").css("height", navHeight)
 
 // ==================== Function called on screen scroll (changes nav color)
 function stickyScroll() {

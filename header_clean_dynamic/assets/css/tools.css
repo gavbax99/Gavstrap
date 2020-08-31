@@ -44,6 +44,24 @@ body {
 .p1 { padding: 1rem; }
 .p2 { padding: 2rem; }
 
+.mb-05 { 
+	height: 0.5rem; 
+	width: 100%;
+	background-color: transparent;
+}
+
+.mb-1 { 
+	height: 1rem; 
+	width: 100%;
+	background-color: transparent;
+}
+
+.mb-2 { 
+	height: 2rem; 
+	width: 100%;
+	background-color: transparent;
+}
+
 :root {
 	--mp25: 0.25rem;
 	--mp5: 0.5rem;
@@ -99,6 +117,9 @@ body {
 
 .i { font-style: italic; }
 .u { text-decoration: underline; }
+.ellip { text-overflow: ellipsis; }
+
+.outline { outline: 1px solid darkgray; }
 
 /* ==================== FLEX TOOLS ==================== */
 .flex-full {
@@ -122,23 +143,39 @@ body {
 
 .flex-1 { flex: 1; }
 
+/* ==================== DISPLAY TOOLS ==================== */
+
+.hider { display: none !important; }
+
+@media only screen and (max-width: 990px) {
+	.hide-below-990 { display: none !important; }
+}
+
+@media only screen and (max-width: 760px) {
+	.hide-below-760 { display: none !important; }
+}
+
+@media only screen and (max-width: 570px) {
+	.hide-below-570 { display: none !important; }
+}
+
 /* ==================== MEDIA Q ==================== */
 @media (pointer: fine) {
 	/* HOVER EFFECTS */
 }
 
-@media only screen and (max-width: 1800) {
+/* @media only screen and (max-width: 1200px) {
+	REGULAR IS >1200
+} */
+
+@media only screen and (max-width: 990px) {
 
 }
 
-@media only screen and (max-width: 1200) {
+@media only screen and (max-width: 760px) {
 
 }
 
-@media only screen and (max-width: 900) {
-
-}
-
-@media only screen and (max-width: 600) {
+@media only screen and (max-width: 570px) {
 
 }

@@ -1,21 +1,15 @@
 	<!-- ==================== HEADER ==================== -->
-	<?php include './components/header.php';?>
+	<?php include './header.php';?>
 	<!-- Default header includes: 
 		  > Meta tags
 		  > Fonts
 	      > CSS links 
 	      > CSS for the header and footer -->
 	<!-- ================================================ -->
-	
-
-
-
-
-
 
 
 	<!-- ==================== FOOTER ==================== -->
-	<?php include './components/footer.php';?>
+	<?php include './footer.php';?>
 	<!-- Default footer includes: 
 	      > JS links 
 	      > jQuery CDN 

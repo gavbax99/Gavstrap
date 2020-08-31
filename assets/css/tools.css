@@ -105,9 +105,6 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	flex-direction: row; 
-	flex-wrap: wrap;
-	width: 100%;
 }
 
 .flex-row { flex-direction: row; }

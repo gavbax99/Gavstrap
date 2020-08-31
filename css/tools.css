@@ -1,0 +1,49 @@
+.test {
+	background-color: red;
+}
+
+/* ==================== FLEX TOOLS ==================== */
+
+.flex-full {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.flex-row {
+	flex-direction: row;
+}
+
+.flex-col {
+	flex-direction: column;
+}
+
+/* ==================== FLEX TOOLS ==================== */
+
+@media (pointer: fine) {
+	/* HOVER EFFECTS */
+}
+
+@media only screen and (max-width: 1800) {
+	.test {
+		background-color: rgb(102, 255, 0);
+	}
+}
+
+@media only screen and (max-width: 1200) {
+	.test {
+		background-color: rgb(47, 0, 255);
+	}
+}
+
+@media only screen and (max-width: 900) {
+	.test {
+		background-color: rgb(255, 0, 212);
+	}
+}
+
+@media only screen and (max-width: 600) {
+	.test {
+		background-color: rgb(221, 218, 218);
+	}
+}

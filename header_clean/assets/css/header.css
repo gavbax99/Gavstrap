@@ -273,7 +273,7 @@
 	}
 }
 
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 1000px) {
 	/* HIDE BLACKOUT */
 	.header-hamburger__blackout--show {
 		display: none !important;
@@ -284,7 +284,7 @@
 	}
 }
 
-@media only screen and (max-width: 992px) { 
+@media only screen and (max-width: 999px) { 
 	/* M QUERIES (992) */
 	.header {
 		padding: 0 10px 0 20px;
@@ -304,18 +304,14 @@
 	/* HOVER EFFECTS */
 }
 
-@media only screen and (max-width: 1800) {
+@media only screen and (max-width: 1599px) {
 
 }
 
-@media only screen and (max-width: 1200) {
+@media only screen and (max-width: 999px) {
 
 }
 
-@media only screen and (max-width: 900) {
-
-}
-
-@media only screen and (max-width: 600) {
+@media only screen and (max-width: 599px) {
 
 }

@@ -1,32 +1,45 @@
-html, body {
-	width: 100%;
-	min-height: 100vh;
+/* 
+*  Breakpoints: 
+*  c-xl-12  1600+         desktop
+*  c-lg-12  1000 - 1599   large tablet
+*  c-md-12  600 - 999     tablet
+*  c-sm-12  0 - 599       mobile
+*/
 
+html, body {
 	/* For rem: */
 	font-size: 14px;
+
+	/* width: 100%;
+	min-height: 100vh; */
 }
 
 /* ==================== CONSTRINED WRAPPER ==================== */
+#home-wrapper {
+	min-height: calc(100% - 103px);
+	background-color: #d0d0d0;
+
+	/* Top align all content (default centered) */
+	/* justify-content: flex-start; */
+
+	/* Background image in the wrapper (remove class 'wrapper' for fullscreen) */
+	/* background-image: url("https://i.pinimg.com/originals/3b/8a/d2/3b8ad2c7b1be2caf24321c852103598a.jpg");
+	background-size: cover; */
+}
+	
 .wrapper {
 	margin: 0 auto;
 	width: 100%;
 	max-width: 1400px;
 }
 
-.home-wrapper {
-	min-height: calc(100% - 103px);
-	
-	background-color: #d0d0d0;
-	padding: 1rem;
-}
-
 /* ==================== PADDING/GUTTER ==================== */
-.row-margin { 
-	padding: 1rem;
+.padding-05 {
+	padding: 0.5;
 }
 
-.gutter {
-	padding: 1rem;
+.padding-1 {
+	padding: 1;
 }
 
 /* ==================== ROWS ==================== */
@@ -37,6 +50,12 @@ html, body {
 	align-items: flex-start;
 	flex-wrap: wrap;
 	width: 100%;
+
+	margin-bottom: 1rem;
+}
+
+.row:last-of-type {
+	margin: 0;
 }
 
 /* ==================== LARGE COLUMNS (1200>) ==================== */
@@ -120,7 +139,7 @@ html, body {
 
 
 /* ==================== LARGE COLUMNS ==================== */
-@media only screen and (max-width: 990px) {
+@media only screen and (max-width: 1599px) {
 	.c-lg-fill {
 		-ms-flex: 1 0 0.1%;
 		flex: 1 0 0.1%;
@@ -202,7 +221,7 @@ html, body {
 
 
 /* ==================== MEDIUM COLUMNS ==================== */
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 999px) {
 	.c-md-fill {
 		-ms-flex: 1 0 0.1%;
 		flex: 1 0 0.1%;
@@ -283,7 +302,7 @@ html, body {
 }
 
 /* ==================== SMALL COLUMNS ==================== */
-@media only screen and (max-width: 570px) {
+@media only screen and (max-width: 599px) {
 	.c-sm-fill {
 		-ms-flex: 1 0 0.1%;
 		flex: 1 0 0.1%;

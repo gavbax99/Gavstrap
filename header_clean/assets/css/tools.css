@@ -164,18 +164,14 @@ body {
 	/* HOVER EFFECTS */
 }
 
-/* @media only screen and (max-width: 1200px) {
-	REGULAR IS >1200
-} */
-
-@media only screen and (max-width: 990px) {
+@media only screen and (max-width: 1599px) {
 
 }
 
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 999px) {
 
 }
 
-@media only screen and (max-width: 570px) {
+@media only screen and (max-width: 599px) {
 
 }

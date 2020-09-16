@@ -7,7 +7,16 @@
 		> CSS for the header and footer -->
 <!-- ================================================ -->
 
-<div style="height:2000px"></div>
+<!-- Remove `wrapper` for full-width -->
+<div class="flex-full wrapper home-wrapper">
+<!-- ================================================ -->
+
+
+	<!-- STUFF -->
+
+
+<!-- ================================================ -->
+</div>
 
 <!-- ==================== FOOTER ==================== -->
 <?php include './footer.php';?>

@@ -1,14 +1,23 @@
 html, body {
 	width: 100%;
+	min-height: 100vh;
+
+	/* For rem: */
+	font-size: 14px;
 }
 
 /* ==================== CONSTRINED WRAPPER ==================== */
 .wrapper {
 	margin: 0 auto;
-	/* height: 100%; */
 	width: 100%;
 	max-width: 1400px;
-	background-color: #fff;
+}
+
+.home-wrapper {
+	min-height: calc(100% - 103px);
+	
+	background-color: #d0d0d0;
+	padding: 1rem;
 }
 
 /* ==================== PADDING/GUTTER ==================== */

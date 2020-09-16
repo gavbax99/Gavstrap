@@ -25,9 +25,9 @@
 	<link rel="stylesheet" type="text/css" href="./assets/css/reset.css" />
 	<link rel="stylesheet" type="text/css" href="./assets/css/grid.css" />
 	<link rel="stylesheet" type="text/css" href="./assets/css/tools.css" />
-
+	
 	<!-- Page styles -->
-	<link rel="stylesheet" type="text/css" href="./assets/css/index.css" />
+	<link rel="stylesheet" type="text/css" href="./assets/css/main.css" />
 
 	<!-- Component styles -->
 	<link rel="stylesheet" type="text/css" href="./assets/css/footer.css" />
@@ -39,104 +39,104 @@
 <!-- ====================================================== -->
 
 
-<header class="flex-full flex-row header">
+	<header class="flex-full flex-row header">
 
-	<!-- ================ Left section - logos -->
-	<div class="flex-full flex-row">
-		<a class="flex-full header-logo" href="http://google.com">
-			<img class="header-logo--lite" alt="Alttxt" src="https://via.placeholder.com/100x33">
-			<img class="header-logo--dark hider" alt="Alttxt" src="https://via.placeholder.com/100x33">
-		</a>
-	</div>
-
-	<!-- ================ Right section - nav, hamburger -->
-	<div class="flex-full flex-row header-nav">
-		
-		<ul class="flex-full flex-row header-nav__list">
-
-			<!-- BUTTON LIST ITEM -->
-			<a href="http://google.com" style="height: 100%;">
-				<li class="flex-full header-nav__li">Button</li>
+		<!-- ================ Left section - logos -->
+		<div class="flex-full flex-row">
+			<a class="flex-full header-logo" href="http://google.com">
+				<img class="header-logo--lite" alt="Alttxt" src="https://via.placeholder.com/100x33">
+				<img class="header-logo--dark hider" alt="Alttxt" src="https://via.placeholder.com/100x33">
 			</a>
+		</div>
 
-			<!-- SCROLL LIST ITEM -->
-			<li data-name="scroll-to-ID" class="flex-full header-nav__scroll header-nav__li">Scroll</li>
-
-			<!-- NESTED LIST ITEM WITH TOP BUTTON -->
-			<li class="flex-full header-nav__top-list header-nav__sublist">
-				<a href="http://google.com" class="flex-full">Sublist Button&nbsp;&nbsp;<i class="fas fa-caret-down"></i></a>
-				<ul class="header-nav__sublist--display">
-					<li data-name="scroll-to-ID" class="header-nav__scroll header-nav__sublist--item">Register &amp; Fees</li>
-					<li data-name="scroll-to-ID" class="header-nav__scroll header-nav__sublist--item">Agenda</li>
-					<li data-name="scroll-to-ID" class="header-nav__scroll header-nav__sublist--item">Travel &amp; Hotel</li>
-				</ul>
-			</li>
-
-			<!-- NESTED LIST REGULAR -->
-			<li class="flex-full header-nav__li header-nav__sublist">Sublist&nbsp;&nbsp;<i class="fas fa-caret-down"></i>
-				<ul class="header-nav__sublist--display">
-					<a href="http://google.com"><li class="header-nav__sublist--item">Greater Midwest</li></a>
-					<a href="http://google.com"><li class="header-nav__sublist--item">Greater Midwest</li></a>
-					<a href="http://google.com"><li class="header-nav__sublist--item">Greater Midwest</li></a>
-					<a href="http://google.com"><li class="header-nav__sublist--item">Greater Midwest</li></a>
-				</ul>
-			</li>
+		<!-- ================ Right section - nav, hamburger -->
+		<div class="flex-full flex-row header-nav">
 			
-		</ul>
-		
-		<!-- CONTACT -->
-		<a href="mailto:eventsupport@avb.net" class="flex-full header-contact">Contact</a>
-	</div>
+			<ul class="flex-full flex-row header-nav__list">
 
-	<!-- ========= -->
-	<!-- HAMBURGER -->
-	<!-- ========= -->
-	<div class="flex-full header-hamburger">
-		<div class="header-hamburger__bar1"></div>
-		<div class="header-hamburger__bar2"></div>
-		<div class="header-hamburger__bar3"></div>
-	</div>
+				<!-- BUTTON LIST ITEM -->
+				<a href="http://google.com" style="height: 100%;">
+					<li class="flex-full header-nav__li">Button</li>
+				</a>
 
-	<!-- HAMBURGER MENU -->
-	<div class="flex-full flex-col header-hamburger-nav">
+				<!-- SCROLL LIST ITEM -->
+				<li data-name="scroll-to-ID" class="flex-full header-nav__scroll header-nav__li">Scroll</li>
 
-		<!-- LIST OF BUTTONS -->
-		<ul class="flex-full flex-col header-hamburger__list">
-			<li>Home</li>
-			<li data-name="scroll-to-ID" class="header-nav__scroll">Register &amp; Fees</li>
-			<li data-name="scroll-to-ID" class="header-nav__scroll">Agenda</li>
-			<li data-name="scroll-to-ID" class="header-nav__scroll">Travel &amp; Hotel</li>
+				<!-- NESTED LIST ITEM WITH TOP BUTTON -->
+				<li class="flex-full header-nav__top-list header-nav__sublist">
+					<a href="http://google.com" class="flex-full">Sublist Button&nbsp;&nbsp;<i class="fas fa-caret-down"></i></a>
+					<ul class="header-nav__sublist--display">
+						<li data-name="scroll-to-ID" class="header-nav__scroll header-nav__sublist--item">Register &amp; Fees</li>
+						<li data-name="scroll-to-ID" class="header-nav__scroll header-nav__sublist--item">Agenda</li>
+						<li data-name="scroll-to-ID" class="header-nav__scroll header-nav__sublist--item">Travel &amp; Hotel</li>
+					</ul>
+				</li>
 
-			<!-- EXPANDABLE -->
-			<li class="header-hamburger--expand">Regions <i class="fas fa-caret-down"></i>
-				<ul class="flex-full flex-col header-hamburger__list__nested hider">
-					<li class="flex-full flex-row">
-						<a href="http://www.avbevents.com/regions/greater-midwest/">Greater Midwest</a>
-						<a href="http://www.avbevents.com/regions/great-plains/">Great Plains</a>
-					</li>
-					<li class="flex-full flex-row">
-						<a href="http://www.avbevents.com/regions/michigan/">Michigan</a>
-						<a href="http://www.avbevents.com/regions/mid-america/">Mid-America</a>
-					</li>
-					<li class="flex-full flex-row">
-						<a href="http://www.avbevents.com/regions/north-atlantic/">North Atlantic</a>
-						<a href="http://www.avbevents.com/regions/north-central/">North Central</a>
-					</li>
-				</ul>
-			</li>
+				<!-- NESTED LIST REGULAR -->
+				<li class="flex-full header-nav__li header-nav__sublist">Sublist&nbsp;&nbsp;<i class="fas fa-caret-down"></i>
+					<ul class="header-nav__sublist--display">
+						<a href="http://google.com"><li class="header-nav__sublist--item">Greater Midwest</li></a>
+						<a href="http://google.com"><li class="header-nav__sublist--item">Greater Midwest</li></a>
+						<a href="http://google.com"><li class="header-nav__sublist--item">Greater Midwest</li></a>
+						<a href="http://google.com"><li class="header-nav__sublist--item">Greater Midwest</li></a>
+					</ul>
+				</li>
+				
+			</ul>
+			
+			<!-- CONTACT -->
+			<a href="mailto:eventsupport@avb.net" class="flex-full header-contact">Contact</a>
+		</div>
 
-		</ul>
+		<!-- ========= -->
+		<!-- HAMBURGER -->
+		<!-- ========= -->
+		<div class="flex-full header-hamburger">
+			<div class="header-hamburger__bar1"></div>
+			<div class="header-hamburger__bar2"></div>
+			<div class="header-hamburger__bar3"></div>
+		</div>
 
-		<!-- CONTACT -->
-		<a href="mailto:eventsupport@avb.net">
-			<div class="flex-full header-hamburger__contact">Contact</div>
-		</a>
-	</div>
+		<!-- HAMBURGER MENU -->
+		<div class="flex-full flex-col header-hamburger-nav">
 
-</header>
+			<!-- LIST OF BUTTONS -->
+			<ul class="flex-full flex-col header-hamburger__list">
+				<li>Home</li>
+				<li data-name="scroll-to-ID" class="header-nav__scroll">Register &amp; Fees</li>
+				<li data-name="scroll-to-ID" class="header-nav__scroll">Agenda</li>
+				<li data-name="scroll-to-ID" class="header-nav__scroll">Travel &amp; Hotel</li>
 
-<!-- OFFSET HEIGHT OF HEADER -->
-<div class="header-offset"></div>
+				<!-- EXPANDABLE -->
+				<li class="header-hamburger--expand">Regions <i class="fas fa-caret-down"></i>
+					<ul class="flex-full flex-col header-hamburger__list__nested hider">
+						<li class="flex-full flex-row">
+							<a href="http://www.avbevents.com/regions/greater-midwest/">Greater Midwest</a>
+							<a href="http://www.avbevents.com/regions/great-plains/">Great Plains</a>
+						</li>
+						<li class="flex-full flex-row">
+							<a href="http://www.avbevents.com/regions/michigan/">Michigan</a>
+							<a href="http://www.avbevents.com/regions/mid-america/">Mid-America</a>
+						</li>
+						<li class="flex-full flex-row">
+							<a href="http://www.avbevents.com/regions/north-atlantic/">North Atlantic</a>
+							<a href="http://www.avbevents.com/regions/north-central/">North Central</a>
+						</li>
+					</ul>
+				</li>
 
-<!-- HAMBURGER BLACKOUT -->
-<div class="header-hamburger__blackout"></div>
+			</ul>
+
+			<!-- CONTACT -->
+			<a href="mailto:eventsupport@avb.net">
+				<div class="flex-full header-hamburger__contact">Contact</div>
+			</a>
+		</div>
+
+	</header>
+
+	<!-- OFFSET HEIGHT OF HEADER -->
+	<div class="header-offset"></div>
+
+	<!-- HAMBURGER BLACKOUT -->
+	<div class="header-hamburger__blackout"></div>

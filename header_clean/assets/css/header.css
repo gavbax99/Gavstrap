@@ -91,13 +91,13 @@
 
 .header-nav__sublist--item {
 	padding: 10px;
-	transition: 0.4s;
+	/* transition: 0.4s; */
 }
 
 .header-nav__sublist--item a {
 	padding: 10px 0;
 	width: 100%;
-	transition: 0.4s;
+	/* transition: 0.4s; */
 }
 
 .header-contact {

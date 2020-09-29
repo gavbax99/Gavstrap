@@ -1,0 +1,177 @@
+/* ==================== DOC SETUP ==================== */
+html {
+	font-size: 16px;
+	height: 100%;
+	font-family: sans-serif;
+}
+
+body {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1;
+    color: #212529;
+	background-color: rgb(235, 235, 235);
+	text-align: left;
+}
+
+/* ==================== COLORS ==================== */
+.color-p { color: #ffffff; }
+.color-s { color: #ffffff; }
+.color-a { color: #ffffff; }
+.color-1 { color: #ffffff; }
+.color-2 { color: #ffffff; }
+.color-3 { color: #ffffff; }
+
+.bgcolor-p { color: #ffffff; }
+.bgcolor-s { color: #ffffff; }
+.bgcolor-a { color: #ffffff; }
+.bgcolor-1 { color: #ffffff; }
+.bgcolor-2 { color: #ffffff; }
+.bgcolor-3 { color: #ffffff; }
+
+.color-dark { color: #212529; }
+.color-light { color: #ffffff; }
+.bg-color-grey { color: #ffffff; }
+
+/* ==================== SPACING SETUP ==================== */
+.mp25 { margin: 0.25rem; }
+.mp5 { margin: 0.5rem; }
+.m1 { margin: 1rem; }
+.m2 { margin: 2rem; }
+
+.pp25 { padding: 0.25rem; }
+.pp5 { padding: 0.5rem; }
+.p1 { padding: 1rem; }
+.p2 { padding: 2rem; }
+
+.mb-05 { 
+	height: 0.5rem; 
+	width: 100%;
+	background-color: transparent;
+}
+
+.mb-1 { 
+	height: 1rem; 
+	width: 100%;
+	background-color: transparent;
+}
+
+.mb-2 { 
+	height: 2rem; 
+	width: 100%;
+	background-color: transparent;
+}
+
+:root {
+	--mp25: 0.25rem;
+	--mp5: 0.5rem;
+	--m1: 1rem;
+	--m2: 2;
+}
+  
+/* ==================== CUSTOM FONT ==================== */
+/* @font-face {
+	font-family: fontC;
+	src: url(sansation_light.woff);
+} */
+
+/* ==================== FONT ==================== */
+.title {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1;
+	line-height: 1;
+	letter-spacing: 1;
+}
+
+.paragraph {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1;
+	line-height: 1;
+	letter-spacing: 1;
+}
+
+.paragraph-accent {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1;
+	line-height: 1;
+	letter-spacing: 1;
+}
+
+.accent-text {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1;
+	line-height: 1;
+	letter-spacing: 1;
+}
+
+.tinytext {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1;
+	line-height: 1;
+	letter-spacing: 1;
+}
+
+.fw-light { font-weight: 100; }
+.fw-regular { font-weight: 400; }
+.fw-bold { font-weight: 400; }
+
+.i { font-style: italic; }
+.u { text-decoration: underline; }
+.ellip { text-overflow: ellipsis; }
+
+.outline { outline: 1px solid darkgray; }
+
+/* ==================== FLEX TOOLS ==================== */
+.flex-full {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.flex-row { flex-direction: row; }
+.flex-col { flex-direction: column; }
+
+.flex-ai-fs { align-items: flex-start; }
+.flex-ai-fe { align-items: flex-end; }
+
+.flex-jc-fs { justify-content: flex-start; }
+.flex-jc-fe { justify-content: flex-end; }
+
+.flex-jc-sb { justify-content: space-between; }
+.flex-jc-sa { justify-content: space-around; }
+.flex-jc-se { justify-content: space-evenly; }
+
+.flex-1 { flex: 1; }
+
+/* ==================== DISPLAY TOOLS ==================== */
+
+.hider { display: none !important; }
+
+@media only screen and (max-width: 990px) {
+	.hide-below-990 { display: none !important; }
+}
+
+@media only screen and (max-width: 760px) {
+	.hide-below-760 { display: none !important; }
+}
+
+@media only screen and (max-width: 570px) {
+	.hide-below-570 { display: none !important; }
+}
+
+/* ==================== MEDIA Q ==================== */
+@media (pointer: fine) {
+	/* HOVER EFFECTS */
+}
+
+@media only screen and (max-width: 1599px) {
+
+}
+
+@media only screen and (max-width: 999px) {
+
+}
+
+@media only screen and (max-width: 599px) {
+
+}

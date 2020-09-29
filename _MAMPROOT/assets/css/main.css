@@ -1,0 +1,25 @@
+.test-col {
+	background-color: #fff;
+	padding: 1rem;
+}
+
+.test-col:nth-child(odd) {
+	background-color: rgb(188, 230, 228);
+}
+
+/* ==================== MEDIA Q ==================== */
+@media (pointer: fine) {
+	/* HOVER EFFECTS */
+}
+
+@media only screen and (max-width: 1599px) {
+
+}
+
+@media only screen and (max-width: 999px) {
+
+}
+
+@media only screen and (max-width: 599px) {
+
+}

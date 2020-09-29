@@ -1,0 +1,24 @@
+footer {
+	width: 100%;
+	padding: 1rem;
+	background-color: rgb(36, 36, 36);
+	color: #fff;
+	text-align: center;
+}
+
+/* ==================== MEDIA Q ==================== */
+@media (pointer: fine) {
+	/* HOVER EFFECTS */
+}
+
+@media only screen and (max-width: 1599px) {
+
+}
+
+@media only screen and (max-width: 999px) {
+
+}
+
+@media only screen and (max-width: 599px) {
+
+}

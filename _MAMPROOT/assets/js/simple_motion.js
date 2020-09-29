@@ -23,7 +23,7 @@ animElementArr.forEach(ele => {
 
 // scrolling logic
 let scrolling = false;
-window.addEventListener("scroll", function(e) {
+window.addEventListener("scroll", e => {
     if (animElementArr.length != 0) scrolling = true;
 });
 
@@ -41,13 +41,13 @@ scrollFadeHandler = () => {
     const windowInnerHeight = window.innerHeight;
 
     // for each element in the nodelist, check to see if it should be rendered
-    animElementArr.forEach((ele, i) => {
+    animElementArr.forEach(ele => {
         let eleTop = ele.getBoundingClientRect().top + window.scrollY;
         let eleOffset = ele.getAttribute("data-sm-dist") != null ? ele.getAttribute("data-sm-dist") : defaultDistance;
         if (window.scrollY > (eleTop - eleOffset - (windowInnerHeight * scrollIntoViewDenom))) {
             ele.style.opacity= "1";
             ele.style.transform = "translate(0, 0)";
-            ele.setAttribute("data-sm", "complete");s
+            ele.setAttribute("data-sm", "complete");
         }
     });
 

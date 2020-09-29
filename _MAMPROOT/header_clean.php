@@ -9,10 +9,14 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 	
     <!-- Page information -->
-    <title>Primary Keyword - Secondary Keyword | Brand Name</title>
-    <meta name="description" content="The infamous meta description tag is used for one major purpose: to describe the page to searchers as they read through the SERPs. This tag doesn't influence ranking, but it's very important regardless. It's the ad copy that will determine if users click on your result. Keep it within 160 characters, and write it to catch the user's attention. Sell the page — get them to click on the result. Here's a great article on meta descriptions that goes into more detail.">
+    <title>***** Primary Keyword - Secondary Keyword | Brand Name</title>
+    <meta name="description" content="The infamous meta description tag is used for one major purpose: to describe the page to searchers as they read through the SERPs. This tag doesn't influence ranking, but it's very important regardless. It's the ad copy that will determine if users click on your result. Keep it within 160 characters, and write it to catch the user's attention. Sell the page — get them to click on the result.">
 	<meta name="author" content="www.gavinbaxter.com">
-	<link rel="icon" href="demo_icon.gif" type="image/gif" sizes="16x16">
+	<link rel="shortcut icon" href="./assets/images/favicon.ico?">
+
+	<!-- OG tags -->
+	<!-- add these lames here -->
+	<link rel="canonical" href="https://yourwebsite.com/">
 
 	<!-- Fontawesome -->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">

@@ -7,9 +7,19 @@
 		> CSS for the header and footer -->
 <!-- ================================================ -->
 
-<!-- Remove `wrapper` for full-width -->
-<div id="home-wrapper" class="flex-full flex-col">
+<!-- Default root wrapper - don't remove -->
+<div id="root-wrapper" class="flex-full flex-col">
+
+	<!-- Remove `wrapper` for full-width -->
+	<div class="wrapper">
+
 <!-- ================================================ -->
+<!-- ===================== HTML ===================== -->
+<!-- ================================================ -->
+
+	<div class="row">
+		<div class="c-sm-12" style="height: 1500px"></div>
+	</div>
 
 	<div class="row">
 		<div class="c-sm-12 c-md-6 c-xl-3 test-col">1</div>
@@ -18,7 +28,7 @@
 		<div class="c-sm-12 c-md-6 c-xl-3 test-col">4</div>
 	</div>
 
-	<div class="row">
+	<div data-sm class="row">
 		<div class="c-sm-6 c-md-2 c-xl-1 test-col">1</div>
 		<div class="c-sm-6 c-md-2 c-xl-1 test-col">2</div>
 		<div class="c-sm-6 c-md-2 c-xl-1 test-col">3</div>
@@ -33,9 +43,18 @@
 		<div class="c-sm-fill c-md-2 c-xl-1 test-col">12</div>
 	</div>
 
+	<div class="row">
+		<div class="c-sm-12" style="height: 1500px"></div>
+	</div>
+
 </div>
 
 <!-- ================================================ -->
+<!-- ===================== HTML ===================== -->
+<!-- ================================================ -->
+
+	</div>
+
 </div>
 
 <!-- ==================== FOOTER ==================== -->

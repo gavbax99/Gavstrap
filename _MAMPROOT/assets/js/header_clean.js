@@ -32,5 +32,3 @@ $(".header-hamburger__blackout").on("click", function () {
 	$(".header-hamburger-nav").toggleClass("header-hamburger-nav--show");
 	$(".header-hamburger__blackout").toggleClass("header-hamburger__blackout--show");
 });
-
-

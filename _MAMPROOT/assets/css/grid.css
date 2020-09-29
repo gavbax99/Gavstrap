@@ -7,22 +7,21 @@
 */
 
 html, body {
-	/* For rem: */
-	font-size: 14px;
+	font-size: 16px;
 
 	/* width: 100%;
 	min-height: 100vh; */
 }
 
 /* ==================== CONSTRINED WRAPPER ==================== */
-#home-wrapper {
+#root-wrapper {
 	min-height: calc(100% - 103px);
 	background-color: #d0d0d0;
 
 	/* Top align all content (default centered) */
 	/* justify-content: flex-start; */
 
-	/* Background image in the wrapper (remove class 'wrapper' for fullscreen) */
+	/* Background image in the wrapper (remove class '.wrapper' for fullscreen) */
 	/* background-image: url("https://i.pinimg.com/originals/3b/8a/d2/3b8ad2c7b1be2caf24321c852103598a.jpg");
 	background-size: cover; */
 }
